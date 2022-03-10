@@ -1,0 +1,120 @@
+<body>
+
+    <p>
+        Por favor não tente quebrar o código
+        ele faz o mínimo que a atividade pede
+        sendo assim não fiz verificações
+    </p>
+
+    <p>
+        aperte o botão de exibir dados use a 
+        trcla de voltar do navegador para sair da página        
+    </p>
+
+    <div>
+        <h1>
+            Turma
+        </h1>
+
+        <h1>Add</h1>
+        <form action="/post" method = "POST">
+
+            <p>Id:</p>
+            <input type="number" name="id">
+            <p>Nome:</p>
+            <input type="text" name = "nome">
+            <p>Curso:</p>
+            <input type="text" name = "curso"></input>
+            <p>Data:</p>
+            <input type="date" name = "data">
+            <button type = "submit">Add</button>
+
+        </form>
+
+        <h1>Atualiza</h1>
+        <form action="/update" method = "POST">
+
+            <p>Id:</p>
+            <input type="number" name="id">
+            <p>Nome:</p>
+            <input type="text" name = "nome">
+            <p>Curso:</p>
+            <input type="text" name = "curso"></input>
+            <p>Data:</p>
+            <input type="date" name = "data">
+            <button type = "submit">Atualizar</button>
+
+        </form>
+
+        <h1>Delete</h1>
+        <form action="/update" method = "POST">
+
+            <p>Id:</p>
+            <input type="number" name="id">
+            <button type = "submit">Deletar</button>
+
+        </form>
+
+        <h1>Exibir</h1>
+        <form action="/dados" method = "GET">
+            <button type="submit">Ver Os dados</button>
+        </form>
+    </div>
+
+
+
+
+
+    <div>
+        <h1>
+            Alunos
+        </h1>
+
+        <h1>Add</h1>
+        <form action="/Aluno/post" method = "POST">
+
+            <p>Id aluno:</p>
+            <input type="number" name="id">
+            <p>Nome:</p>
+            <input type="text" name = "nome">
+            <p>Data:</p>
+            <input type="date" name = "matricula">
+            <p>Id turma:</p>
+            <input type="number" name="turma">
+            <button type = "submit">Add</button>
+
+        </form>
+
+        <h1>Atualiza</h1>
+        <form action="/Aluno/update" method = "POST">
+
+            <p>Id aluno:</p>
+            <input type="number" name="id">
+            <p>Nome:</p>
+            <input type="text" name = "nome">
+            <p>Data:</p>
+            <input type="date" name = "matricula">
+            <p>Id turma:</p>
+            <input type="number" name="turma">
+            <button type = "submit">Add</button>
+
+        </form>
+
+        <h1>Delete</h1>
+        <form action="/Aluno/update" method = "POST">
+
+            <p>Id aluno:</p>
+            <input type="number" name="id">
+            <button type = "submit">Deletar</button>
+
+        </form>
+
+        <h1>Exibir</h1>
+        <form action="/dados" method = "GET">
+            <button type="submit">Ver Os dados</button>
+        </form>
+    </div>
+
+
+
+</body>
